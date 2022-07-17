@@ -1,0 +1,4 @@
+/home/george/mono_calibration/build/CMakeFiles/rebuild_cache.dir
+/home/george/mono_calibration/build/CMakeFiles/edit_cache.dir
+/home/george/mono_calibration/build/CMakeFiles/mono_calibrator_images.dir
+/home/george/mono_calibration/build/CMakeFiles/mono_calibrator.dir

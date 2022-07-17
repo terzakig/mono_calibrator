@@ -1,0 +1,30 @@
+%YAML:1.0
+---
+image_with: 1280
+image_height: 720
+camera_name: monocam
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1.4844732609005905e+03, 0., 5.9470665801178734e+02, 0.,
+       1.4850859828342409e+03, 3.6910420985611523e+02, 0., 0., 1. ]
+distortion_model: plumb_bob
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ -9.6527648956891332e-01, 1.6367552961533849e+00,
+       -6.9707698843592099e-03, 6.0480413504109707e-03,
+       -2.2032155902775692e+00 ]
+rectification_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+projection_matrix: !!opencv-matrix
+   rows: 3
+   cols: 4
+   dt: f
+   data: [ 1.48447327e+03, 0., 5.94706665e+02, 0., 0., 1.48508594e+03,
+       3.69104218e+02, 0., 0., 0., 1., 0. ]
